@@ -7,9 +7,12 @@ function calcular(operacion, numUno, numDos) {
     } else if (operacion == 'multiplicacion') {
         return numUno * numDos
     } else if (operacion == 'division') {
-        return numUno / numUno
+        return numUno / numDos
     } else {
         return ('sintax.ERR')
     }
 }
-console.log(calcular('multiplicacion', 8, 6)) 
+
+for (let i = 1; i < 6; i++) {
+    console.log(i)
+}

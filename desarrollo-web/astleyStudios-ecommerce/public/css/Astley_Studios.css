@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(44, 66, 78);
+}
+
+article:hover {}
+
+#lista-header {
+    display: flex;
+    margin-left: 15px;
+}
+
+.a-lista {
+    transition: all 600ms;
+}
+
+.a-lista:hover {
+    background-color: rgb(4, 17, 37);
+    border-radius: 10px;
+    color: rgb(179, 219, 231);
+    padding: 4px;
+}
+
+#LOGO {
+    width: 120px;
+}
+
+li {
+    list-style-type: none;
+    margin: 5px;
+}
+
+html {
+    background-color: rgb(191, 206, 209);
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 10px;
+    height: 100%;
+}
+
+.a-article {
+    transition: 700ms;
+    margin: 10px;
+    width: 320px;
+}
+
+.a-article:hover {
+    box-shadow: 1px 12px 13px rgb(1, 82, 255);
+}
+
+#div-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+}
+
+#derechos {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(44, 66, 78);
+    margin-top: 100px;
+}
+
+#article {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+main {
+    text-align: center;
+}
+
+.secciones {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+   
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#div-header {
+    display: flex;
+}
+
+form {
+    display: flex;
+}
+
+button {
+    border: none;
+    padding: 3px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 20;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    font-size: 20px;
+    padding: 3px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+
+input:focus-visible {
+    outline: none;
+}
